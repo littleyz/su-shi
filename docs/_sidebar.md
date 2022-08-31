@@ -1,23 +1,18 @@
 <!-- docs/_sidebar.md -->
 
-- Getting started
+- 年谱年表
 
   - [苏轼年谱](1036.md)
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
-- Customization
+- 传记
 
   - [Configuration](configuration.md)
   - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
 
-- Guide
+- 作品相关
 
   - [Deploy](deploy.md)
   - [Helpers](helpers.md)
