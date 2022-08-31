@@ -55,7 +55,7 @@
 
   <body>
     <div id="app">Loading ...</div>
-    <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
+
     <script>
       // Set html "lang" attribute based on URL
       var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
@@ -89,7 +89,6 @@
         mergeNavbar: true,
         maxLevel: 4,
         subMaxLevel: 2,
-        ga: 'UA-106147152-1',
         matomo: {
           host: '//matomo.thunderwave.de',
           id: 6,
@@ -211,9 +210,6 @@
     <script>
       // Public site only
       if (/docsify/.test(location.host)) {
-        document.write(
-          '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"><\/script>'
-        );
         document.write(
           '<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"><\/script>'
         );
