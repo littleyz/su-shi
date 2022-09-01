@@ -3,7 +3,7 @@
 - 年谱年表
 
   - [苏轼年谱](1036.md)
-  - [Writing more pages](more-pages.md)
+  - [苏轼生卒年表](1101.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
