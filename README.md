@@ -1,2 +1,2 @@
-# su-shi-nian-pu
-苏轼年谱
+# su-shi
+苏轼
