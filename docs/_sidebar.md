@@ -5,7 +5,7 @@
   - [苏轼年谱](1036.md)
   - [苏轼生卒年表](1101.md)
   - [宋史.苏轼传](song-shi-zhuan-ji.md)
-  - [Cover page](cover.md)
+  - [东坡先生墓志铭](mu-zhi-ming.md)
 
 - 传记
 
