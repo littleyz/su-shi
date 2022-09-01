@@ -4,13 +4,5 @@
 
 # 苏轼
 
-> 一蓑烟雨任平生。
-
-- 苏轼年谱传记
-- 诗词文书画
-- 及其它
-
-[GitHub](https://github.com/)
-[Get Started](#su-shi)
 
 ![color](#f0f0f0)
