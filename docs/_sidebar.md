@@ -7,9 +7,9 @@
   - [宋史.苏轼传](song-shi-zhuan-ji.md)
   - [东坡先生墓志铭](mu-zhi-ming.md)
 
-- 传记
+- 作品
 
-  - [Configuration](configuration.md)
+  - [东坡词](dong-po-ci.md)
   - [Themes](themes.md)
 
 - [Awesome docsify](awesome.md)
