@@ -5,4 +5,4 @@
 
 <!-- 背景图片 -->
 
-![](https://onewater.run/background.png)
+![](https://raw.githubusercontent.com/littleyz/su-shi/main/docsify/themes/background.png)
