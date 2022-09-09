@@ -1,4 +1,6 @@
 ## 苏轼世系
+...mermaid
+
 graph TD
     A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
