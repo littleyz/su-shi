@@ -1,11 +1,12 @@
 ## 苏轼世系
 ```mermaid
-graph TD
-    A[釿（黄氏）] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+flowchart TD
+    A[釿.黄氏] -->B[祐.李氏]
+    B --> C[杲.宋氏]
+    C -->D[Result 1]
+    C -->E[Result 2]
+    B -->F[德]
+    B -->G[宗晁]
 
 
 # 
