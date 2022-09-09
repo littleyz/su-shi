@@ -19,6 +19,7 @@
       href="//fastly.jsdelivr.net/gh/littleyz/su-shi-nian-pu/docsify/themes/vue.css"
       title="vue"
     />
+    <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
     <style>
       nav.app-nav li ul {
         min-width: 100px;
@@ -33,7 +34,26 @@
 
   <body>
     <div id="app">Loading ...</div>
+    <script>
+var num = 0;
+mermaid.initialize({ startOnLoad: false });
 
+window.$docsify = {
+  markdown: {
+    renderer: {
+      code: function(code, lang) {
+        if (lang === "mermaid") {
+          return (
+            '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
+          );
+        }
+        return this.origin.code.apply(this, arguments);
+      }
+    }
+  }
+}
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
       // Set html "lang" attribute based on URL
       var lang = location.hash.match(/#\/(de-de|es|ru-ru|zh-cn)\//);
