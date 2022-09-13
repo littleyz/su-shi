@@ -11,9 +11,9 @@
 
 ### 苏轼上代世序
 
-[苏轼上代世序](https://fastly.jsdelivr.net/gh/littleyz/su-shi/docs/static/shi-xi-1.svg)
+![苏轼上代世序](https://fastly.jsdelivr.net/gh/littleyz/su-shi/docs/static/shi-xi-1.svg)
 
 
 ### 苏轼下代世序
 
-[苏轼下代世序](https://fastly.jsdelivr.net/gh/littleyz/su-shi/docs/static/shi-xi-2.svg)
+![苏轼下代世序](https://fastly.jsdelivr.net/gh/littleyz/su-shi/docs/static/shi-xi-2.svg)
