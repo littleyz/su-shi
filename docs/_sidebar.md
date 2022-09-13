@@ -11,7 +11,5 @@
 - 作品
 
   - [东坡词](dong-po-ci.md)
-  - [Themes](themes.md)
 
-- [Awesome docsify](awesome.md)
 - [更新记录](changelog.md)
