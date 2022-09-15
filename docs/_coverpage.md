@@ -5,4 +5,4 @@
 
 <!-- 背景图片 -->
 
-![](https://raw.githubusercontent.com/littleyz/su-shi/main/docsify/themes/background.png)
+![](https://fastly.jsdelivr.net/gh/littleyz/su-shi/docsify/themes/background.png)
