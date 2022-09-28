@@ -24,5 +24,6 @@
      - [卷一百六 - 卷一百十五](8.md)
      - [补遗](9.md)
   - [东坡易传](yi-zhuan.md)
+  - [东坡书传](shu-zhuan.md)
 
 - [更新记录](changelog.md)
