@@ -26,4 +26,8 @@
   - [东坡易传](yi-zhuan.md)
   - [东坡书传](shu-zhuan.md)
 
+- 相关
+
+  - [苏轼交游对象](people.md)
+
 - [更新记录](changelog.md)
