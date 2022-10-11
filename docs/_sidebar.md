@@ -32,4 +32,4 @@
 
   - [苏轼交游对象](people.md)
 
-- [更新记录](changelog.md)
+- [更新记录](CHANGELOG.md)
