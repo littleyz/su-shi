@@ -136,23 +136,6 @@
             },
           },
         },
-        plugins: [
-        DemoBoxVue.create(jsResources, cssResources, bootCode),
-        function (hook) {
-          var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="https://www.sudongpo.cc">sudongpo.cc</a> &copy;2022.</span>',
-            '<span>a <a href="https://onewater.run" target="_blank">onewater.run</a> website.</span>',
-            '</footer>'
-          ].join('')
-
-          hook.afterEach(function (html) {
-            return html + footer
-          })
-        },
-        DocsifyCodefund.create(15)
-        ],
       };
     </script>
     <script src="//lf6-cdn-tos.bytecdntp.com/cdn/expire-1-y/docsify/4.12.2/docsify.min.js"></script>
