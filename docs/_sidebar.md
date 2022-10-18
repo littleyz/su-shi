@@ -28,6 +28,7 @@
   - [东坡易传](yi-zhuan.md)
   - [东坡书传](shu-zhuan.md)
   - [苏沈良方](su-shen.md)
+  - [东坡志林](zhi-lin.md)
 
 - 相关
 
