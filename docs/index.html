@@ -27,6 +27,12 @@
       #carbonads {
         box-shadow: none !important;
         width: auto !important;
+        #twikoo {margin:3rem auto;max-width: 90%;padding: 30px 15px 40px;}
+    .tk-content blockquote{border-left: 4px solid var(--accent);margin: 2em 0;padding-left: 20px;font-family: KaiTi,STKaiti;}
+    .tk-content blockquote p {line-height: 1.3rem;}
+    .tk-meta-input .el-input:last-child{display: none;}
+    .el-loading-spinner{top: 30%;width: 100%;text-align: center;position: absolute;}
+    .circular{height: 200px;width: 200px;-webkit-animation: loading-rotate 2s linear infinite;animation: loading-rotate 2s linear infinite;}
       }
     </style>
   </head>
@@ -145,6 +151,10 @@
           ].join('')
 
 
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+
         // 动态插入 div#tcomment 的 dom 
         hook.mounted(function () {
           var a = Docsify.dom;
@@ -170,11 +180,6 @@
              },700)
           });
         })
-
-        hook.afterEach(function (html) {
-            return html + footer
-          })
-
 
         },
       ]
