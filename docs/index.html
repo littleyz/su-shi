@@ -144,10 +144,6 @@
             '</footer>'
           ].join('')
 
-          hook.afterEach(function (html) {
-            return html + footer
-          })
-
 
         // 动态插入 div#tcomment 的 dom 
         hook.mounted(function () {
@@ -174,6 +170,10 @@
              },700)
           });
         })
+
+        hook.afterEach(function (html) {
+            return html + footer
+          })
 
 
         },
