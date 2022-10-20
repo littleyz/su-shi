@@ -82,6 +82,12 @@
       namespace: 'website-1',
     },
 
+    footer: {
+        copy: '<span>&copy; 2022</span>',
+        auth: '<a href="https://www.sudongpo.cc">www.sudongpo.cc</a>',
+        pre: '<hr/>',
+        style: 'text-align: left;',
+      },
 
         vueComponents: {
           'button-counter': {
@@ -137,43 +143,35 @@
           },
         },
 
-      plugins: [
-      function(hook, vm) {
-        // 绑定灯箱效果
-        hook.afterEach(function(html) {
-          window.ViewImage && ViewImage.init('.ebook img,a.zoom');
-        });
-        // 动态插入 div#tcomment 的 dom 
-        hook.mounted(function () {
-          var a = Docsify.dom;
-          var n = a.create("div");
-          n.id = "tcomment";
-         a.appendTo(a.find(".content"), n);
-        })
-        // 调用 twikoo 评论，正则 path，刷新当前评论
-        hook.doneEach(function () {
-          twikoo.init({
-              envId: 'https://twikoo.jiangyu.org/',
-              el: '#tcomment',
-              path: location.pathname+location.hash.replace(/\?.*/,''),
-              onCommentLoaded: function () {
-                window.ViewImage && ViewImage.init('.tk-content img:not(.avatar,.tk-avatar-img,.tk-owo-emotion),.ebook img,a.zoom');
-              }
-           }).then(function () {
-            console.log('Twikoo 加载完成');
-            setTimeout(function() {
-              // 通过点击刷新按钮，获取当前页评论
-              let tk_icon = document.getElementsByClassName("tk-icon")[0];
-              tk_icon ? tk_icon.click() : undefined;
-             },700)
+    plugins: [
+        function(hook, vm) {
+          hook.afterEach(function(html) {
+            window.ViewImage && ViewImage.init('.ebook img,a.zoom');
           });
-        })
-      }
-    ]
-
-
-
-
+          hook.mounted(function () {
+            var a = Docsify.dom;
+            var n = a.create("div");
+            n.id = "tcomment";
+           a.appendTo(a.find(".content"), n);
+          })
+          hook.doneEach(function () {
+            twikoo.init({
+                envId: 'https://twikoo.jiangyu.org/',
+                el: '#tcomment',
+                path: location.pathname+location.hash.replace(/\?.*/,''),
+                onCommentLoaded: function () {
+                  window.ViewImage && ViewImage.init('.tk-content img:not(.avatar,.tk-avatar-img,.tk-owo-emotion),.ebook img,a.zoom');
+                }
+             }).then(function () {
+              console.log('Twikoo 加载完成');
+              setTimeout(function() {
+                let tk_icon = document.getElementsByClassName("tk-icon")[0];
+                tk_icon ? tk_icon.click() : undefined;
+               },700)
+            });
+          })
+        }
+      ]
 
       };
     </script>
@@ -183,7 +181,7 @@
     <script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/prism/1.27.0/components/prism-markdown.min.js"></script>
     <script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-y/prism/1.27.0/components/prism-nginx.min.js"></script>
     <script src="//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/prism/1.27.0/components/prism-php.min.js"></script>
-    <script src="https://cdn.staticfile.org/twikoo/1.6.7/twikoo.all.min.js"></script>
+    <script src="https://cdn.jiangyu.org/cdn/twikoo.all.min.js"></script>
  
     
     <script>
