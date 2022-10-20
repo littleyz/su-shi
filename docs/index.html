@@ -183,10 +183,12 @@
              },700)
           });
         })
+        },
 
 
 
-        var footer = [
+        function (hook, vm) {
+          var footer = [
             '<hr/>',
             '<footer>',
             '<b>Powered by <a href="https://www.sudongpo.cc" target="_blank" style="color: #cccccc; text-decoration: none;">sudongpo.cc</a>. a <a href="https://onewater.run" target="_blank" style="color: #cccccc; text-decoration: none;">onewater.run</a> website.</b>',
@@ -197,10 +199,8 @@
           hook.afterEach(function (html) {
             return html + footer
           })
-
-
-
         },
+
       ]
 
       };
