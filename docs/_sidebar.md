@@ -33,5 +33,6 @@
 - 相关
 
   - [苏轼交游对象](people.md)
+  - [东坡乌台诗案](wu-tai.md)
 
 - [更新记录](CHANGELOG.md)
