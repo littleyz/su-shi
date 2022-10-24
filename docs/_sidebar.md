@@ -29,6 +29,7 @@
   - [东坡书传](shu-zhuan.md)
   - [苏沈良方](su-shen.md)
   - [东坡志林](zhi-lin.md)
+  - [广成子解](guang-cheng.md)
 
 - 相关
 
