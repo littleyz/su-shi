@@ -10,7 +10,7 @@
   - [宋史.苏轼传](song-shi-zhuan-ji.md)
   - [东坡先生墓志铭](mu-zhi-ming.md)
 
-- 作品
+- 文学作品
 
   - [苏轼作品概述](zuo-pin.md)
   - [东坡词](dong-po-ci.md)
@@ -30,6 +30,11 @@
   - [苏沈良方](su-shen.md)
   - [东坡志林](zhi-lin.md)
   - [广成子解](guang-cheng.md)
+
+- 书画作品
+
+  - [法书](fashu.md)
+  - [绘画](hua.md)
 
 - 相关
 
